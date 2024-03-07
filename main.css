@@ -1,79 +1,141 @@
-header{
-   color: black;
+header {
+  color: black;
 }
 body {
-    background-image: url(pictures/backround1.png);
-    background-size:1400px;
-    background-position: center;
-    background-repeat: no-repeat;   
-    line-height: 1.4;
-    text-decoration: none;
-    font-family: 'Kanit', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.4;
+  text-decoration: none;
+  font-family: "Kanit", Tahoma, Geneva, Verdana, sans-serif;
+}
+.background {
+  position: relative;
+  z-index: 0;
+  width: 1350px;
+  margin-bottom: -4500px;
 }
 .headerimg {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px;
-    margin-top:-40px ;
-    margin-bottom: -40px;
-padding-right:500px ;
-padding-left: 500px;
-background-color: #fff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  margin-top: -40px;
+  margin-bottom: -40px;
+  padding-right: 500px;
+  padding-left: 500px;
+  background-color: #fff;
 }
 nav {
-        background-color: #fff;
-        padding: 30px;
-        justify-content: center;
-        text-align: center;
-      margin-bottom: 50px;  
-      filter:drop-shadow(#aaaaaa8f 0px 4px);
-      filter:blur(50%);
-      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      font-size: 30px;
-      font-weight: bolder;
-      margin-left: -10px;
-      margin-right: -10px;
+  background-color: #fff;
+  padding: 30px;
+  justify-content: center;
+  text-align: center;
+  filter: drop-shadow(#999 0px 4px);
+  filter: blur(50%);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: -30px;
+  font-size: 40px;
 }
-.link{
-    margin: 5rem;
+/*Hur länkarna ser ut*/
+.link {
+  margin: 5rem;
 }
-a:link { 
-    text-decoration: none;}
-a:visited { text-decoration: none;color: #000; }
-a:hover { text-decoration: underline black 12px; }
-a:active {text-decoration: underline black 12px; }
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+  color: #000;
+}
+.link:hover {
+  text-decoration: underline black 12px;
+}
 .container {
-    max-width:1343px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
+  max-width: 1343px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
 }
+/*Hur profilbilden ser ut */
 .profile {
-    border-radius: 50%;
-    max-width: 400px;
-margin-top: 40px; 
+  position: relative;
+  z-index: 2;
+  border-radius: 50%;
+  max-width: 500px;
+  margin-top: 150px;
+  margin-left: -100px;
 }
-h1{
-    margin-inline-start: 430px;
-font-size:35px ;
-margin-top: -350px;
-font-weight:bolder;
+h1 {
+  position: relative;
+  z-index: 2;
+  margin-inline-start: 430px;
+  font-size: 40px;
+  margin-top: -470px;
+  font-weight: bolder;
 }
-h3{
-    margin-bottom: 300px;
-    max-width:400px;
-   margin-inline-start: 430px;
-   color: #fff;
-   line-height: 1.8;
-   font-size: 25px;
+h2 {
+  text-decoration: none;
+}
+h3 {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 300px;
+  max-width: 480px;
+  margin-inline-start: 430px;
+  color: #fff;
+  line-height: 1.8;
+  font-size: 30px;
 }
 .h3 {
-    margin-top: -275px;
-    color: #000000;
-    margin-left: 137px;
-    margin-right: 450px;
+  position: relative;
+  z-index: 2;
+  margin-top: -275px;
+  color: #fff;
+  margin-inline-start: 430px;
+}
+.tab {
+  padding-left: 20px;
+  margin-inline-end: 400px;
+  margin-inline-start: -100px;
+  color: #000;
+  background-color: #fff;
+  padding-top: 1px;
+  box-shadow: 1px 3px 1px 1px #999;
+  margin-left: -200px;
+  z-index: -1;
+  font-size: 30px;
+  text-decoration: none;
+}
+.tab3 {
+  position: relative;
+  z-index: 3;
+  color: #000;
+  background-color: #fff;
+  box-shadow: 1px 3px 1px 1px #999;
+  font-size: 25px;
+  text-decoration: none;
+  margin-left: 450px;
+  margin-right: 450px;
+  text-align: center;
+}
+img {
+  position: relative;
+  z-index: 2;
+}
+.break {
+  position: relative;
+  z-index: 3;
+  margin-top: -270px;
+  background-color: #fff;
+  color: #fff;
+  font-size: 4px;
+  justify-content: center;
+  margin-left: 430px;
+  margin-right: 430px;
+  margin-bottom: 100px;
 }
