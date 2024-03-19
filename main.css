@@ -10,19 +10,22 @@ body {
   position: relative;
   z-index: 0;
   width: 1350px;
-  margin-bottom: -4500px;
+  margin-bottom: -3600px;
 }
 .headerimg {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 500px;
-  margin-top: -500px;
+  margin-top: -40px;
+  margin-bottom: -40px;
   padding-right: 500px;
   padding-left: 500px;
   background-color: #fff;
 }
 nav {
+  position: relative;
+  z-index: 1;
   background-color: #fff;
   padding: 30px;
   justify-content: center;
